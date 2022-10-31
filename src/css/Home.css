@@ -1,0 +1,29 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav span {
+    font-size: 20px;
+    font-family: 'GT Walsheim Pro';
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    margin: 0;
+    align-items: center;
+    font-family: 'GT Walsheim Pro';
+}
+
+nav ul button {
+    font-size: 20px;
+    padding: 13px 40px;
+    background-color: #232323;
+    border-color: #232323;
+    color: #f3f3f3;
+    font-family: inherit;
+}
