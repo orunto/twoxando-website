@@ -3,7 +3,10 @@ nav {
     justify-content: space-between;
     align-items: center;
     color: #f3f3f3;
-
+    position: fixed;
+    top: 30px;
+    left: 50px;
+    width: calc(100% - 100px);
 }
 
 nav span {
@@ -24,11 +27,56 @@ nav ul {
     color: #f3f3f3;
 }
 
-nav ul button {
+button {
     font-size: 20px;
     padding: 13px 40px;
-    background-color: #232323;
-    border-color: #232323;
     color: #f3f3f3;
     font-family: inherit;
+    width: max-content;
+    background-color: transparent;
+    border: 1px solid #f3f3f3;
+    outline: none;
+    transition: 0.3s;
+    cursor: pointer;
 }
+
+
+button:hover {
+    background-color: #232323;
+    border-color: #232323;
+}
+
+h1 {
+    margin: 0;
+    font-size: 100px;
+    font-weight: normal;
+    font-family: 'Montserrat';
+}
+
+nav ul button {
+    background-color: #232323;
+    border-color: #232323;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    color: #f3f3f3;
+    text-align: center;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/291344554_716066556364911_358677999575890247_n.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+p{
+    font-size: 20px;
+    width: 500px;
+    font-family: 'GT Walsheim Pro';
+    color: #f3f3f3;
+}
+

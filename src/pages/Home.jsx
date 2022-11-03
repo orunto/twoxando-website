@@ -16,6 +16,12 @@ const Home = () => {
                 </ul>
 
             </nav>
+
+            <section id='lagosdogs'>
+                <h1>LAGOS DOGS</h1>
+                <p>Lagos Dogs os a story driven, third person shooter following  a trail of violent crimes and cybercimes in Lagos city</p>
+                <button>Learn More</button>
+            </section>
         </div>
     )
 }
