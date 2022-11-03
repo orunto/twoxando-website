@@ -29,7 +29,8 @@ nav ul {
 
 button {
     font-size: 20px;
-    padding: 13px 40px;
+    padding: 18px 60px;
+    /* padding: 28px 105px; */
     color: #f3f3f3;
     font-family: inherit;
     width: max-content;
@@ -54,6 +55,7 @@ h1 {
 }
 
 nav ul button {
+    padding: 20px 40px;
     background-color: #232323;
     border-color: #232323;
 }
@@ -67,10 +69,22 @@ section {
     width: 100%;
     color: #f3f3f3;
     text-align: center;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/291344554_716066556364911_358677999575890247_n.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 700px;
+}
+
+#lagosdogs{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/291344554_716066556364911_358677999575890247_n.png);
+
+}
+
+#experience{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/sheyi-owolabi-WSu7qcT3rVg-unsplash.jpg);
+}
+
+#onourway{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/pexels-fernando-arcos-211122.jpg);
 }
 
 p{
@@ -80,3 +94,28 @@ p{
     color: #f3f3f3;
 }
 
+input {
+    font-size: 20px;
+    padding: 13px 40px;
+    color: #f3f3f3;
+    font-family: inherit;
+    width: max-content;
+    background-color: transparent;
+    border: 1px solid #f3f3f3;
+    outline: none;
+    border-color: #00AC9F;
+    transition: 0.3s;
+    padding: 25px 70px;
+    cursor: pointer;
+}
+
+input::placeholder{
+    color: #f3f3f3;
+    opacity: 0.7;
+}
+
+#onourway button {
+    padding: 25px 109px;
+    background-color: #00AC9F;
+    border-color: #00AC9F;
+}
